@@ -1,0 +1,682 @@
+*{
+    font-family: "DM Sans", sans-serif;
+    margin: 0%;
+}
+#homescreen{
+    width: 100%;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#navbar_logo{
+    width: 19.115vw;
+    min-width: 150px;
+    margin-left: 4%;
+
+}
+#navbar_elements{
+    display: flex;
+    width: 60%;
+    justify-content: right;
+    margin-right: 3vw;
+}
+#navbar_icon{
+    width: 1.25vw;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 450;
+    margin-right: 3%;
+    font-size: clamp(5px, 0.938vw, 100px);
+}
+.background-container {
+  position: relative;     
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.background-image{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.overlay_container{
+    position: absolute;
+    top: 73%;
+    left: 85%;
+    transform: translate(-50%, -50%); 
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    width: 20%;  
+    justify-content: center;
+}
+.layer2_images{
+    width: 45%;
+    border-radius: 12px;
+}
+.layer2_icons{
+    width: 12%;
+    height: 5%;
+    cursor: pointer;
+}
+
+
+
+
+/* page 1 Styling */
+#page1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 10% 10% 0 0;
+    background-color: white; /* Or any color */
+    overflow: hidden;
+    
+}
+#leftside_content{
+    width: 51.094vw;
+    background-color: #F2F2F2;
+}
+#page1_img{
+    width: 100%;
+}
+#rightside_content{
+    width: 39.323vw;
+    background-color: white;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 4%;
+}
+#page1_heading{
+    font-size: clamp(8px, 2.5vw, 50px);
+    margin-bottom: 0px;
+    font-style: sans-serif;
+    font-weight: 700;
+
+}
+#page1_para{
+    margin-top: 5px;
+    font-size: clamp(6px, 1.042vw, 30px);
+    margin-bottom: 20px;
+    font-weight: 350;
+    padding: auto;
+}
+#page1_button{
+    width: 7.552vw;
+    height: 2.8vw;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: #0366C6;
+    color: white;
+    border: none;
+    font-size: clamp(3px, 0.938vw, 50px);
+    font-weight: 500;
+}
+
+
+/*------------ page 2 Styling ----------*/
+#page2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 10% 10% 0% 0%;
+    background-color: white; /* Or any color */
+    overflow: hidden;
+}
+#page2_left_content{
+    width: 20.729vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: clamp(6px, 1.042vw, 30px);
+}
+#page2_right_content{
+    width: 69.688vw;
+    height: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0%;
+    margin-top: 0%;
+
+}
+.page2_img_div{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page2_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(8px, 2.5vw, 50px);
+    font-weight: 800;
+    height: 5.5vw;
+    margin-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 5%;
+}
+
+.page2_img{
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+#page2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0%;
+    overflow: hidden;
+}
+.page2_right_div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page2_right_head{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    top: 60%;
+    font-size: clamp(5px, 1.667vw, 50px);
+    color: white;
+    width: 12%;
+    padding: 2%;
+    font-weight: 500;
+
+}
+.page2_right_para{
+    font-size: clamp(3px, 0.938vw, 30px);
+    font-style: sans-serif;
+    position: absolute;
+    top: 78%;
+    width: 11%;
+    text-align: left;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/*----------- page 3 Styling -----------*/
+
+#page3_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#page3_bg_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10% 10% 0% 0%;
+    background-color: white; /* Or any color */
+    overflow: hidden;
+}
+
+.page3_head_body{
+    position: absolute;
+    color: white;
+}
+#page3_main_head{
+    font-size: clamp(5px, 2.5vw, 100px);
+    font-weight: 700;
+    top: 20%;
+}
+#page3_2nd_head{
+    font-size: clamp(6px, 1vw, 50px);
+    top: 28%;
+    font-weight: 300;
+}
+#page3_body{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    color: white;
+    top: 24%;
+    margin: 5%;
+}
+
+.page3_content{
+    background: rgba(255, 255, 255, 0.15); /* Light translucency */
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%); /* Safari support */
+    width: 17.667vw;
+    height: 11.667vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    max-width: 500px;
+    margin: 1%;
+}
+.page3_content_head{
+    font-size: clamp(5px, 1.25vw, 45px);
+    font-weight: 500;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 3.8vw;
+    width: 12.5vw;
+}
+.page3_content_body{
+    font-size: clamp(3px, 0.9vw, 20px);
+    font-weight: 250;
+    padding: 10%;
+    padding-top: 0%;
+
+}
+
+
+
+
+
+
+/*------------ Page 4 ----------*/
+
+#page4{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10% 10% 0 0;
+    background-color: white; /* Or any color */
+    overflow: hidden;
+}
+#page4_bg_img{
+    width: 100%;
+    position: relative;
+    
+}
+#page4_left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    padding-left: 0.9%;
+    color: white;
+
+}
+#page4_leftcontent_head{
+    font-size: clamp(5px, 2.5vw, 45px);
+    width: 65%;
+    font-weight: 600;
+    height: auto;
+    margin-bottom: 3%;
+
+}
+#page4_leftcontent_body{
+    font-size: clamp(3px, 1.1vw, 20px);
+    width: 68%;
+    font-weight: 200;
+    align-items: top;
+    padding-left: 3%;
+}
+
+#page4_right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: white;
+    justify-content: space-between;
+}
+#page4_right_upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 2%;
+}
+#page4_right_lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#page4_uppercontent_head,
+#page4_lowercontent_head{
+    font-size: clamp(5px, 1.2vw, 45px);
+    width: 100%;
+    font-weight: 400;
+    height: 2.5vw;
+    padding-bottom: 10%;
+}
+
+#page4_uppercontent_body,
+#page4_lowercontent_body{
+    font-size: clamp(3px, 0.9vw, 20px);
+    width: 100%;
+    font-weight: 190;
+    height: 7vw;
+}
+
+.page4_icon{
+    width: 12%;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 83%;
+    left: 83%;
+}
+
+.page4_box{
+     background: rgba(255, 255, 255, 0.15); /* Light translucency */
+    backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    width: 16%;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: 1.4%;
+    height: 9.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------ Page 5 ----------*/
+#page5{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to bottom, #264DA0, #0E1C3A);
+    flex-direction: column;
+    border-radius: 10% 10% 0 0;
+    background-color: white; /* Or any color */
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+#page5_sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-top: 3%;
+}
+#page5_sec1_left{
+    width: 30%;
+    display: flex;
+    padding-left: 0.5%;
+    top: 20%;
+    margin-left: 5%;
+    margin-right: 1.1%;
+}
+#page5_head{
+    font-size: clamp(5px, 2.4vw, 80px);
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 40vw;
+    padding-top: 5%;
+}
+#page5_sec1_right{
+    width: 70%;
+    padding-top: 2.2%;
+}
+#page5_para{
+    font-size: clamp(3px, 1vw, 20px);
+    font-weight: 200;
+    color: white;
+    width: 52vw;
+}
+#page5_sec2,
+#page5_sec3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page5_sec2_logo,
+#page5_sec3_logo{
+    display: flex;
+    flex-direction: row;
+}
+#page5_sec2_text,
+#page5_sec3_text{
+    font-size: clamp(3px, 1.25vw, 40px);
+    font-weight: 450;
+    color: white;
+    width: 50vw;
+    padding-top: 1%;
+    padding-left: 8%;
+}
+#page5_sec2_content,
+#page5_sec3_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#page5_sec2_icon,
+#page5_sec3_icon{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page5_sec2_icon1,
+#page5_sec3_icon1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40%;
+}
+#page5_sec2_icon2,
+#page5_sec3_icon2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40%;
+}
+#page5_sec2_logoid,
+#page5_sec3_logoid{
+    width: 85vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* hides any overflow from image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.page5_sec2_logo,
+.page5_sec3_logo{
+    width: 13vw;
+    height: 6.5vw;
+    margin: 0.9%;
+    background-color: white;
+    border-radius: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5_sec2_logo img,
+.page5_sec3_logo img {
+    max-width: 6vw;
+    max-height: 6vw;
+    object-fit: contain;
+}
+
+#page5_img{
+  object-fit: contain; /* 🛡️ Ensures image fits without stretching */
+  display: block;
+}
+
+
+
+
+
+
+
+
+/*----------------- Footer goes here ----------------*/
+
+#footer{
+    width: 100%;
+    position: relative;
+    
+    
+}
+#footer_bg{
+    width: 100%;
+    
+}
+#footer_container{
+    position: absolute;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 15%;
+    margin-left: 2%;
+}
+#footer_sec1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5%;
+}
+#footer_logo{
+    width: 20.729vw;
+}
+#footer_sec1_text{
+    font-size: clamp(3px, 0.8vw, 20px);
+    font-weight: 300;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+#footer_sec1_social_logo{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.footer_social_logo{
+    width: 11%;
+    display: flex;
+    margin: 2%;
+}
+
+#footer_sec2{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    left: 42%;
+    width: 25%;
+}
+.footer_button{
+    border: none;
+    margin-bottom: 4%;
+    cursor: pointer;
+    font-size: clamp(3px, 0.833vw, 20px); 
+    background: none;
+    display: flex;
+    align-items: left;
+}
+
+#footer_sec3{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: left;
+    left:64%;
+}
+
+#footer_sec4{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: left;
+    left: 85%;
+    width: 28%;
+}
+
+.footer_head{
+    font-size: clamp(3px, 1.042vw, 20px);
+    font-weight: 600;
+    margin-bottom: 4%;
+    padding-left: 1%;
+}
+
+.footer_get_in_touch{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.get_in_touch_icon{
+    width: 1.25vw;
+    height: 1.25vw;
+    display: flex;
+}
+.get_in_touch_text{
+    font-size: clamp(3px, 0.833vw, 20px);
+    font-weight: 400;
+    width: 200%;
+    color: black;
+    text-decoration: none;
+    padding-left: 3%;
+
+
+}
+#footer_content{
+    position: absolute;
+    left: 45%;
+    margin-top: 26%;
+}
+
+#footer_copyright{
+    font-size: clamp(3px, 0.833vw, 20px);
+    
+}
